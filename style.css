@@ -8,6 +8,7 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 15px 30px;
   background: white;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -16,7 +17,10 @@ body {
 .navbar a {
   margin-left: 15px;
   text-decoration: none;
-  color: black;
+  color: white;
+  background: black;
+  padding:10px;
+  border-radius: 16px;
 }
 
 /* HERO */
@@ -45,6 +49,7 @@ body {
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 60px;
   padding: 20px;
   gap: 20px;
 }
@@ -100,8 +105,8 @@ body {
 .info-hero {
   text-align: center;
   padding: 60px;
-  background: linear-gradient(to right, #667eea, #764ba2);
-  color: white;
+  background: whitesmoke;
+  color: black;
 }
 
 .info-section {
@@ -126,3 +131,46 @@ body {
 .info-card:nth-child(3) {
   background: linear-gradient(135deg, #11998e, #38ef7d);
 }
+
+.login-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.login-container h2 {
+  margin-bottom: 20px;
+}
+.login-container input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.login-container button {
+  padding: 10px 20px;
+  background: #3b5bdb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.login-container button:hover {
+  background: #2c3e9a;
+}
+.login-container p {
+  margin-top: 15px;
+}
+.login-container a {
+  color: #3b5bdb;
+  text-decoration: none;
+}
+.login-container a:hover {
+  text-decoration: underline;
+}
+
+
