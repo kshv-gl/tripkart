@@ -28,6 +28,28 @@
   </div>
 </section>
 
+<div class="controls">
+
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search destinations, trips..." />
+  </div>
+
+  <div class="filters">
+    <select id="filterType">
+      <option value="all">All Trips</option>
+      <option value="Solo Trip">Solo Trip</option>
+      <option value="Group Trip">Group Trip</option>
+    </select>
+
+    <select id="sortPrice">
+      <option value="default">Sort</option>
+      <option value="low">Price: Low → High</option>
+      <option value="high">Price: High → Low</option>
+    </select>
+  </div>
+
+</div>
+
 <div id="loader" class="loader">Loading...</div>
 <div id="tripContainer" class="grid"></div>
 
