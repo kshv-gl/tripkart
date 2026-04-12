@@ -1,51 +1,92 @@
 # 🌍 TripKart – Trip Aggregator Web Application
 
-## 📌 Project Idea
+## 💡 Project Overview
 
-TripKart is a web application that acts as a trip exploration platform. It allows users to browse and discover different trips in one place instead of relying on scattered sources like social media or direct messages.
+TripKart is a frontend-based web application that allows users to explore and discover different travel destinations in a structured and interactive way. The platform aggregates trip-like data from a public API and presents it in a visually appealing interface.
+
+The application focuses on delivering a smooth user experience through dynamic data rendering, responsive design, and interactive features.
 
 ---
 
 ## 🎯 Purpose
 
-The goal of this project is to create a centralized platform where users can:
+The objective of this project is to build a web application that demonstrates:
 
-* Browse multiple trip options
-* Search and filter trips based on their preferences
-* Explore trips in a structured and user-friendly way
+* API integration using fetch
+* Dynamic rendering of data on the UI
+* Use of JavaScript for interactivity
+* Clean and responsive UI design
 
 ---
 
-## 🌐 Public API Used
+## 🌐 API Used
 
-DummyJSON Products API
+**DummyJSON Products API**
 https://dummyjson.com/products
 
-This API provides structured data such as titles, prices, ratings, categories, and images, which will be used to represent trip-related information in the application.
+The API provides structured data such as price, rating, and images. This data is transformed into travel-related content within the application. 
 
 ---
 
-## ⚙️ Planned Features
+## ⚙️ Features Implemented
 
-* Search trips based on keywords
-* Filter trips based on category and rating
-* Sort trips based on price
-* Save favourite trips
-* Toggle between light and dark mode
+* 🔍 **Search Functionality**
+  Users can search trips based on keywords. Implemented using `filter()` for dynamic results.
+
+* 🎯 **Filtering**
+  Users can filter trips based on type (Solo Trip / Group Trip).
+
+* ↕️ **Sorting**
+  Trips can be sorted based on price (Low to High / High to Low) using `sort()`.
+
+* 📦 **Dynamic Data Rendering**
+  Data fetched from the API is transformed and displayed as trip cards dynamically.
+
+* 📱 **Responsive Design**
+  The application is fully responsive across mobile, tablet, and desktop devices. 
 
 ---
 
-## 🛠️ Technologies Involved
+## 🛠️ Technologies Used
 
 * HTML
 * CSS
 * JavaScript
-* Fetch API
 
 ---
 
-## 💡 Project Overview
+## 🧠 Key Concepts Used
 
-TripKart is designed as a frontend-focused web application that demonstrates API integration and dynamic UI rendering. The application will fetch data from a public API and present it in a user-friendly interface where users can search, filter, and explore trips efficiently.
+* Array Higher-Order Functions:
 
-The focus of the project is on building a clean and interactive user experience while working with data fetched from an API.
+  * `map()` for data transformation
+  * `filter()` for search and filtering
+  * `sort()` for ordering results
+
+* DOM Manipulation
+
+* Event Handling
+
+---
+
+## 📄 Pages in the Application
+
+* **Home Page** – Displays all trips with search, filter, and sort features 
+* **About Page** – Provides information about the platform 
+* **Login Page** – Basic login interface UI 
+
+---
+
+## ✨ Project Highlights
+
+* Clean and modern UI design
+* Efficient use of JavaScript functions for data handling
+* Structured and modular code
+* Smooth user interaction
+
+---
+
+## 🚀 Conclusion
+
+TripKart demonstrates how real-time data from an API can be transformed into a meaningful and interactive user experience. The project highlights core frontend development concepts including API integration, responsive UI design, and dynamic data manipulation.
+ 
