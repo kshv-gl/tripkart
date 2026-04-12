@@ -1,5 +1,11 @@
 # 🌍 TripKart – Trip Aggregator Web Application
 
+# 🌐 Live Demo
+
+# 🔗 https://kshv-gl.github.io/tripkart/
+
+# Experience the application live and explore all features including search, filtering, and sorting in real-time.
+
 ## 💡 Project Overview
 
 TripKart is a frontend-based web application that allows users to explore and discover different travel destinations in a structured and interactive way. The platform aggregates trip-like data from a public API and presents it in a visually appealing interface.
