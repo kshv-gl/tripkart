@@ -2,7 +2,7 @@
 
 # 🌐 Live Demo
 
-# 🔗 https://kshv-gl.github.io/tripkart/
+# 🔗 melodious-cascaron-a037d5.netlify.app
 
 # Experience the application live and explore all features including search, filtering, and sorting in real-time.
 
